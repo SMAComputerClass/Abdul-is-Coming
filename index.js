@@ -55,7 +55,7 @@ if (Jesus == "Seduce") {
   alert("Abdul is tempted by the child... yes... you will do nicely... come with Abdul.  Abdul takes you to his house where you become his personel slave.  ENDING?")
 }
 else if (Jesus == "Pray") {
-  Pray = prompt("who do you pray to?") {
+  Pray = prompt("who do you pray to?")
     if (Pray == "Gus"){
       alert("You pray to Gus for protection.  Nothing happens as Abdul comes closer.  Suddenly, Gus floats down from the heavens and stares at Abdul.  Abdul explodes into a small pile of flowers.  GOOD ENDING?")
     }
@@ -66,10 +66,10 @@ else if (Jesus == "Pray") {
     else {
       alert("You pray to God for salvation.  Nothing happens.  Abdul ends your life and takes your soul for his own.  WORST ENDING?")
     }
-  }
+
 
   }
-} else if (Jesus == "Beg for mercy") {
+ else if (Jesus == "Beg for mercy") {
   alert("Abdul ignores your cries for mercy and he rips your throat with his teeth.  BAD ENDING?")
 } else {
   alert("Abdul kills you.  LAZY ENDING?")
